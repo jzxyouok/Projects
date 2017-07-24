@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+    <!--<color name="colorPrimaryLight">#DBE2EF</color>-->
+    <!--<color name="colorPrimary">#3F72AF</color>-->
+    <!--<color name="colorPrimaryDark">#112D4E</color>-->
+    <!--<color name="colorAccent">#F3CD70</color>-->
+    <!--<color name="colorBackground">#FFFFFF</color>-->
+    <!--<color name="colorTextPrimary">#FFFFFF</color>-->
+
+    <!--<color name="tab_disable">#979797</color>-->
+    <!--<color name="tab_enable">#FFFFFF</color>-->
+    <!--<color name="tab_checked">#F3CD70</color>-->
+    <!--<color name="tab_unchecked">#FFFFFF</color>-->
+
+    <!--<color name="click">#cdcdcd</color>-->
+    <!--<color name="black">#000</color>-->
+<!--</resources>-->
+<resources>
+    <color name="colorPrimaryLight">#e59ba9</color>
+    <color name="colorPrimary">#FF5A6E</color>
+    <color name="colorPrimaryDark">#FF5A6E</color>
+    <color name="colorAccent">#F3CD70</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorTextPrimary">#ffffff</color>
+
+    <color name="tab_disable">#F3CD70</color>
+    <color name="tab_enable">#ffffff</color>
+    <color name="tab_checked">#F3CD70</color>
+    <color name="tab_unchecked">#FFFFFF</color>
+
+    <color name="click">#cdcdcd</color>
+    <color name="black">#000</color>
+</resources>

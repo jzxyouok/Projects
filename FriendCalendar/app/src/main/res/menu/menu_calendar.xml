@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item android:id="@+id/action_today"
+        android:title="今天"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <group
+        android:checkableBehavior="single">
+        <item android:id="@+id/action_day_view"
+            android:title="一天"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+        <item android:id="@+id/action_three_day_view"
+            android:title="三天"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:checked="true"/>
+        <item android:id="@+id/action_week_view"
+            android:title="一周"
+            android:orderInCategory="100"
+            app:showAsAction="never"/>
+    </group>
+</menu>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/changeAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_margin="8dp"
+        app:contentPadding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="left|center"
+            android:gravity="right"
+            android:lineSpacingExtra="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:text="更换头像"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatarPlace"
+            android:layout_gravity="right|center"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/avatar"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/arrowright"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/changeUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_margin="8dp"
+        app:contentPadding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="left|center"
+            android:gravity="right"
+            android:lineSpacingExtra="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:text="更换用户名"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="40dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="8dp"
+            android:textSize="20sp"
+            android:text="ccxxs"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/arrowright"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/changePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_margin="8dp"
+        app:contentPadding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="left|center"
+            android:gravity="right"
+            android:lineSpacingExtra="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:text="更换密码"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/arrowright"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_margin="8dp"
+        app:contentPadding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:text="退出登录"/>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
